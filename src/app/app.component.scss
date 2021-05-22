@@ -1,0 +1,18 @@
+.row {
+    width: 100%;
+}
+
+.cell {
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.maze-container {
+    margin: 8px;
+    width: calc(100vh - 16px);
+    height: calc(100vh - 16px);
+    box-sizing: border-box;
+    border: 1px solid black;
+}
